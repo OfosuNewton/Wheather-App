@@ -2,7 +2,7 @@
 
 A responsive and dynamic weather forecasting application built as part of [The Odin Project](https://theodinproject.com) curriculum. This project demonstrates asynchronous JavaScript, API integration, and modern front-end bundling workflows using Webpack.
 
-🔗 **[Live Demo](https://github.io)**
+🔗 **[Live Demo](https://ofosunewton.github.io/Wheather-App/)**
 
 ## 🚀 Features
 
