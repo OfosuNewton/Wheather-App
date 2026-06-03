@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wheather App</title>
+</head>
+<body>
+    <div id="main-container">
+        <div>
+            <div></div>
+        </div>
+        <div class="search-bar-cont">
+            <input type="text" id="search-bar" placeholder="Enter your Location: eg 'Kumasi'">
+            <button class="search-button">Search</button>
+        </div>
+        <div class="card-container">
+                <div class="card">
+                    <div class="header">Visual Crossing Wheather</div>
+                    <div id="temp-container">
+                        <div id="temp">Temperature
+                            <p class="Farenheit">F</p>
+                            <div id="outer">
+                                <div id="switch"></div>
+                            </div>
+                            <p class=celsius>°C</p>
+                        </div>
+                        <p class="temp-element"></p>
+                        <img src="./asset/img/temperature.svg" alt="" id="temp-gif">
+                    </div>
+                    <div>
+                        <div id="final-condition">Precip Probability</div>
+                        <p class="precip-element"></p>
+                        <img src="./asset/img/precipitation.svg" alt="" id="precip-gif">
+                    </div>
+                    <div>
+                        <div id="humidity">Humidity</div>
+                        <p class="humidity-element"></p>
+                        <img src="./asset/img/humidity.svg" id="humid-gif" alt="">
+                    </div>
+                    <div>
+                        <div id="cloudCover">Cloud Cover</div>
+                        <p class="cloud-cover-element"></p>
+                        <img src="./asset/img/cloud.svg" alt="" id="cloud-gif">
+                    </div>
+                    <div id="condition-container">
+                        <div id="condition">Conditions</div>
+                        <p class="condition-element"></p>
+                        <img src="#" alt="" id="condition-gif" height="90 rem"  width="300rem" >
+                    </div>
+                </div>
+                </div>
+
+                <!-- loader -->
+                 <div class="" id="loading_component"></div>
+    </div>
+</body>
+</html>
